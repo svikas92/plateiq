@@ -5,7 +5,7 @@ function LeftComponent() {
     return (
         <div className="left">
             <div className="invoice-img">
-                <img src="https://source.unsplash.com/random/900x900" alt=""/>
+                <img src="https://source.unsplash.com/random/900x1000" alt=""/>
             </div>
         </div>
     )
