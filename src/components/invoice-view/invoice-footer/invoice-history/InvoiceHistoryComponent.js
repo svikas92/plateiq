@@ -5,9 +5,9 @@ import InvoiceHistoryItemComponent from "./invoice-history-item/InvoiceHistoryIt
 function InvoiceHistoryComponent() {
     return (
         <div className="invoice-details-history">
-            <h2>Recent Activity</h2>
+            <h3>Recent Activity</h3>
             <div className="invoice-details-history__list">
-                <InvoiceHistoryItemComponent />
+                {new Array(3).fill(0).map(() => { return (<InvoiceHistoryItemComponent />) })}
             </div>
         </div>
     )

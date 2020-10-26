@@ -12,7 +12,7 @@ function InvoiceItemListComponent() {
                 <span className="invoice-details-item-table__header_title">Total</span>
             </div>
             <div className="invoice-details-item-table__content">
-                <InvoiceItemComponent />
+                {new Array(7).fill(0).map(() => { return (<InvoiceItemComponent />) })}
             </div>
         </div>
     )
