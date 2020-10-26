@@ -1,0 +1,31 @@
+.invoice-details-history__list_item {
+    background-color: #fff;
+    padding: 15px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px 35px auto;
+}
+
+.invoice-details-history__list_item_timestamp h5 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.invoice-details-history__list_item_timestamp p {
+    font-size: .8em;
+}
+
+.invoice-details-history__list_item_flag .material-icons {
+    color: #F84B5D;
+    font-size: 0.9em;
+}
+
+.invoice-details-history__list_item_info h5 {
+    color: #F84B5D;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.invoice-details-history__list_item_info p {
+    font-size: .8em;
+}

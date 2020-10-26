@@ -1,0 +1,29 @@
+.invoice-details-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+}
+
+.invoice-details-footer__tabs {
+    display: flex;
+    padding: 0px 20px;
+}
+
+.invoice-details-footer__tabs button {
+    background-color: initial;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 0px;
+    margin-right: 10px;
+}
+
+.invoice-details-footer__tabs button:hover {
+    border-bottom: 2px solid #1E95F3;
+    font-weight: bold;
+}
+
+.invoice-details-footer__tabs button.active {
+    border-bottom: 2px solid #1E95F3;
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+.invoice-details-summary {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.invoice-details-summary__col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: .9em;
+}
+
+.invoice-details-summary__col_total {
+    flex-direction: row-reverse;
+}
+
+.invoice-details-summary__col .invoice-details-summary__col_subtext {
+    font-size: 0.8em;
+    color: #ddd;
+}
+
+.invoice-details-summary__col_total .invoice-details-summary__col_subtext {
+    text-transform: uppercase;
+}

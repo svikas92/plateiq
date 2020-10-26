@@ -1,0 +1,43 @@
+.invoice-details-item-table__content_row {
+    display: grid;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 2px solid #bdbdbd;
+    grid-template-columns: 1fr .5fr .5fr auto;
+}
+
+.invoice-details-item-table__content_row_col {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.invoice-details-item-table__content_row_name {
+    flex-direction: column;
+}
+
+.invoice-details-item-table__content_row_qty {
+    justify-content: center;
+}
+
+.invoice-details-item-table__content_row_price {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.invoice-details-item-table__content_row_col .title {
+    font-size: .9em;
+}
+
+.invoice-details-item-table__content_row_col .subtitle {
+    color: #bdbdbd;
+    font-size: 0.7em;
+}
+
+.invoice-details-item-table__content_row_name .subtitle {
+    margin-top: 5px;
+}
+
+.invoice-details-item-table__content_row_price .title {
+    margin-right: 5px;
+}

@@ -1,0 +1,17 @@
+.invoice-details-item-table {
+    background-color: #efefef;
+}
+
+.invoice-details-item-table__header {
+    display: grid;
+    font-weight: bold;
+    font-size: .9em;
+    padding: 15px 20px;
+    border-top: 1px solid #bdbdbd;
+    grid-template-columns: 1fr .5fr .5fr auto;
+}
+
+.invoice-details-item-table__content {
+    display: grid;
+    grid-template-columns: 1fr;
+}
